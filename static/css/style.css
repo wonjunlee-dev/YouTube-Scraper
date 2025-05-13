@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+body{
+    background-color: #28385E;
+}
+
+input:focus{
+    outline: none;
+    background-color: #fff;
+}
+
+#wrap{
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+h1 a{
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #a6a6a6;
+}
+
+#search-box{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 18px 2rem;
+}
+
+#search-box.expanded{
+    max-height: 1000px;
+}
+
+#crawling{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 10rem;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    flex: 1;
+}
+
+#crawling i{
+    font-size: 20px;
+    color: #28385E;
+}
+
+#crawling input{
+    font-family: "Nunito", sans-serif;
+    color: #28385E;
+    flex: 1;
+    min-width: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#crawling input::placeholder{
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#crawling button{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    color: #28385E;
+    background-color: #DCEEFF;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+#loading, #result{
+    transition: opacity 0.4s ease;
+    opacity: 1;
+}
+
+#loading img{
+    width: 120px;
+    margin: 20px auto;
+    display: block;
+}
+
+#result{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+#result p{
+    margin-bottom: 0px;
+}
+
+.hidden{
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.video-table{
+    border-collapse: collapse;
+    margin: 7px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.video-table thead tr{
+    background-color: #009879;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.video-table th, .video-table td{
+    padding: 12px 15px;
+}
+
+.video-table td a:hover{
+    border-bottom: 2px solid #000;
+}
+
+.video-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.video-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.video-table tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}

@@ -1,0 +1,5 @@
+.env
+chromedriver-mac-arm64/
+.vscode/
+__pycache__/
+*.pyc
