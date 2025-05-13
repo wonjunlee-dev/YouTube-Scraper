@@ -6,8 +6,8 @@ A Flask web application that scrapes and displays top 10 YouTube videos for a gi
 
 📸 Preview
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/d5e2fa96-7ccc-4e64-b245-833a59df7cfb" width="45%" />
-  <img src="https://github.com/user-attachments/assets/e213de62-a121-49e7-abee-8c490b477528" width="45%" />
+  <img src="https://github.com/user-attachments/assets/012cc74c-0e93-4079-a8b3-0f82f3b54ade" width="45%" />
+  <img src="https://github.com/user-attachments/assets/829f23a9-030e-4669-8d3c-ca10c1bb5d84" width="45%" />
 </p>
 
 
